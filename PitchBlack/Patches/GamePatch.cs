@@ -8,7 +8,7 @@ namespace PitchBlack.Patches
     {
 		static bool Prefix(ref BeatmapEventData beatmapEventData)
 		{
-			if(Config.Instance.Enabled)
+			if(Config.Instance.Enabled && Config.Instance.Light)
             {
 				return false;
 			}
@@ -23,7 +23,7 @@ namespace PitchBlack.Patches
 	{
 		static bool Prefix()
 		{
-			if (Config.Instance.Enabled)
+			if (Config.Instance.Enabled && Config.Instance.Light)
 			{
 				return false;
 			}
@@ -39,7 +39,7 @@ namespace PitchBlack.Patches
 	{
 		static bool Prefix()
 		{
-			if (Config.Instance.Enabled)
+			if (Config.Instance.Enabled && Config.Instance.Light)
 			{
 				return false;
 			}
@@ -54,7 +54,7 @@ namespace PitchBlack.Patches
 	{
 		static bool Prefix()
 		{
-			if (Config.Instance.Enabled)
+			if (Config.Instance.Enabled && Config.Instance.Spectrogram)
 			{
 				return false;
 			}

@@ -8,6 +8,8 @@ namespace PitchBlack
 	{
 		public static Config Instance;
 		public virtual bool Enabled { get; set; } = true;
+		public virtual bool Light { get; set; } = true;
+		public virtual bool Spectrogram { get; set; } = true;
 
 		/// <summary>
 		/// This is called whenever BSIPA reads the config from disk (including when file changes are detected).

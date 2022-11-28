@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PitchBlack/obj/Debug
+/.vs/PitchBlack/FileContentIndex
+/.vs/BeatSaber_PitchBlack/v17
+/.vs/PitchBlack/v17
+/PitchBlack/bin/Release
+/PitchBlack/obj
