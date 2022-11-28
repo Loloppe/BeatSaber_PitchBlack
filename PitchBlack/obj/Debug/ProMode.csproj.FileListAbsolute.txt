@@ -1,2 +1,0 @@
-C:\Users\Laure\source\repos\ProMode\ProMode\obj\Debug\ProMode.csproj.AssemblyReference.cache
-C:\Users\Laure\source\repos\ProMode\ProMode\obj\Debug\ProMode.csproj.CoreCompileInputs.cache
