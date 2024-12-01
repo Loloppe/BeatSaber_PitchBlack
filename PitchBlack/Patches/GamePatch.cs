@@ -6,7 +6,7 @@ namespace PitchBlack.Patches
 
 	static class SkipEvent
     {
-		static bool Prefix(ref BeatmapEventData beatmapEventData)
+		static bool Prefix()
 		{
 			if(Config.Instance.Enabled && Config.Instance.Light)
             {

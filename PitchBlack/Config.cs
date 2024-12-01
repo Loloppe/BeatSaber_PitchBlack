@@ -7,7 +7,7 @@ namespace PitchBlack
 	public class Config
 	{
 		public static Config Instance;
-		public virtual bool Enabled { get; set; } = true;
+		public virtual bool Enabled { get; set; } = false;
 		public virtual bool Light { get; set; } = true;
 		public virtual bool Spectrogram { get; set; } = true;
 
